@@ -1,0 +1,88 @@
+#gpWrap {
+    font-family: Helvetica, Arial, sans-serif;
+    border: 4px ridge #000;
+    margin: 100px auto;
+    width: 300px;
+    padding: 0;
+    text-align: center;
+}   
+
+#gpWrap h3, #gpWrap p {
+    margin: 0;
+
+}
+
+#gpHeader {
+    background-color: #63645f;
+    color: #fff;
+    margin: 0;
+    width: 100%;
+}
+
+#gpHeader h2 {
+    margin: 0;
+    font-size: 36px;
+    line-height: 28px;
+    padding: 5px 0 0;
+}
+
+#gpContent {
+    margin: 0;
+    width: auto;
+    background-color: #bcbcc4;
+    color: #48484a;
+    padding: 10px;
+    border: 2px solid #f60;
+    border-left: none;
+    border-right: none;
+    height: 160px;
+}
+
+#gpSolve, #gpReset, #gpHelp {border: 2px solid #666; border-radius: 5px;}
+#gpSolve {background-color: #222; color: #f60; width:100px;}
+#gpReset {background-color: #222; color: #fff;}
+#gpHelp  {background-color: #f00; color: #fff;}
+#gpOutputs {display:none;}
+
+#gpAddToSite   {}
+
+#gpPromo {
+    margin: 0;
+    background-color: #63645f;  
+    color: #dd0;
+}
+
+label {
+    display: block; 
+    float: left;
+    width: 120px;
+    text-align: left;
+
+}
+.qmark {
+    width: 15px;
+    height: 15px;
+    font-size: 12px;
+    margin-top: 4px;
+    float: left;
+    display: block;
+    background-color: #ababab;
+    border-radius: 16px;
+    font-weight: bold;
+
+}
+
+
+#required {
+        clear: both;
+}
+		#arcFlashOutputs {
+			float: left;
+			clear: both;
+		
+		}
+		
+		.outContainer {
+			height: 40px;
+			clear: both;
+		}
